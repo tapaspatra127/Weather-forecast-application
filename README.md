@@ -46,6 +46,6 @@ weather-forecast-application
 ```
 
 ## 📄 License
-MIT License. Feel free to use and modify!
+MIT License.
 
 
