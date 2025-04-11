@@ -10,14 +10,14 @@ def get_weather(city):
         wind = data['wind']
         weather = data['weather'][0]
 
-        print(f"\n📍 Weather Report for {city.title()}")
+        print(f"\n Weather Report for {city.title()}")
         print("------------------------------------")
         print(f"🌡️ Temperature: {main['temp']}°C")
         print(f"💧 Humidity: {main['humidity']}%")
         print(f"🌬️ Wind Speed: {wind['speed']} m/s")
         print(f"☁️ Condition: {weather['description'].title()}")
     else:
-        print("\n❌ City not found or API limit reached. Please try again.")
+        print("\n City not found or API limit reached. Please try again.")
 
 if __name__ == "__main__":
     print("=== Simple Weather Forecast App ===")
